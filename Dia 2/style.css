@@ -1,0 +1,40 @@
+#titulo1
+{
+    color: red;
+    text-align: center;
+    
+}
+#subtitulos
+{
+    color: black;
+    text-decoration: underline;
+    text-align: center;
+
+}
+img
+{
+    border: 5px solid;
+    border-radius: 50%;
+    max-width: 20%;
+    height: auto;
+    
+
+}
+.estudio
+{
+    border: 5px outset red;
+    background-color: lightcoral;
+    
+}
+.trabajo
+{
+    border: 5px outset green;
+    background-color: lightgreen;
+    
+}
+.familia
+{
+    border: 5px outset yellow;
+    background-color: lightyellow;
+    
+}
