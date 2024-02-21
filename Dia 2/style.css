@@ -1,7 +1,10 @@
+
 #titulo1
 {
-    color: red;
+    color: darkslategrey;
     text-align: center;
+    background-color: aquamarine;
+    border: 5px outset blue;
     
 }
 #subtitulos
@@ -11,15 +14,21 @@
     text-align: center;
 
 }
-img
+#imagenes 
 {
-    border: 5px solid;
-    border-radius: 50%;
-    max-width: 20%;
-    height: auto;
-    
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#definiciones
+{
+    color: black;
+    text-align: center;
 
 }
+
 .estudio
 {
     border: 5px outset red;
