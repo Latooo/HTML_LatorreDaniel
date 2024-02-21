@@ -1,0 +1,50 @@
+body
+{
+    background-color: cornflowerblue;
+}
+#titulo
+{
+    text-decoration: overline;
+    text-align: center;
+    color: blue;
+    background-color: aquamarine;
+    border: 5px outset blue;
+    width: 500px;
+    height: 75px;
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+    
+}
+#opciones
+{
+    text-align: center;
+    color: blue;
+    background-color: aquamarine;
+    border: 5px outset blue;
+    font-size: 25px;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+    text-decoration: none;
+}
+#tablas
+{
+    border: 3px solid blue;
+    text-align: center;
+}
+#titulotablas
+{
+    text-decoration: overline;
+    text-align: center;
+    color: blue;
+    background-color: aquamarine;
+    border: 5px outset blue;
+    width: 500px;
+    height: 75px;
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+}
