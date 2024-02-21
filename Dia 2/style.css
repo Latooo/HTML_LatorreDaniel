@@ -1,4 +1,7 @@
-
+body
+{
+  background-image: url("Imagenes/Space-Background-Images.jpg");
+}
 #titulo1
 {
     color: darkslategrey;
@@ -18,9 +21,9 @@
 {
     width: 100px;
     height: 100px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
+    border-radius: 50%;
+    border: 5px outset black;
+
 }
 #definiciones
 {
