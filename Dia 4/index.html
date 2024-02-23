@@ -2,22 +2,36 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Formulario de registro - Mi web</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form action="get">
-        <h2>Nombre</h2>
-        <input type="text" name="first_name" placeholder="Ingresa tu nombre." maxlength="50">
-        <h2>Apellido</h2>
-        <input type="text" name="last_name" placeholder="Ingresa tu apellido." maxlength="50">
-        <h2>Sexo</h2>
-        <input type="checkbox">
-
-        <input type="submit">
-        
+    <center>
+    <form action="/Dia 4/gracias.html">
+        <h2 id="titulos2">Nombres</h2>
+        <input type="text" name="first_name" placeholder="Ingresa tus nombres." maxlength="50">
+        <h2 id="titulos2">Apellidos</h2>
+        <input type="text" name="last_name" placeholder="Ingresa tus apellidos." maxlength="50">
+        <h2 id="titulos2">Sexo</h2>
+        <input type="radio" name="opcion" value="Hombre"> Hombre<br>
+        <input type="radio" name="opcion" value="Mujer"> Mujer<br>
+        <h2 id="titulos2">Email</h2>
+        <input type="email" name="email" placeholder="Ingresa tu email."><br>
+        <h2 id="titulos2">Ubicacion</h2>
+        <select>
+        <option value="opcion1">Bucaramanga</option>
+        <option value="opcion2">Giron</option>
+        <option value="opcion3">Floridablanca</option>
+        <option value="opcion3">Piedecuesta</option>
+        </select><br><br>
+        <input type="checkbox" id="genero" name="Hombre" value="Hombre">
+        <label for="Hombre"> Deseo recibir informacion sobre novedades y ofertas.</label><br>
+        <br>
+        <input type="checkbox" id="genero" name="Mujer" value="Mujer">
+        <label for="Mujer"> Declaro haber leido y aceptar las condiciones generales <br> del programa y la normativa sobre proteccion de datos.</label><br>
+        <br><input type="submit" value="Enviar">
     </form>
-    
+</center>
 
 </body>
 </html>
