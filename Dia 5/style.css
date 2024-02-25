@@ -15,7 +15,6 @@
     width: 1920px;
     height: 1080px;
     background: transparent url('img/FondoTwitch.png') 0% 0% no-repeat padding-box;
-    opacity: 0.35;
     position: absolute;
 }
 #lupa
@@ -195,4 +194,159 @@
     opacity: 1;
     position: absolute;
 }
+#compatible
+{
+    top: 3127px;
+    left: 418px;
+    width: 1118px;
+    height: 125px;
+    background: transparent url('img/Compatible devices.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+}
+#there
+{
+    top: 3296px;
+    left: 181px;
+    width: 1544px;
+    height: 99px;
+    background: transparent url('img/There’s a range of devices where you can enjoy all of the content available in Prime Entertainment:.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+}
+#mac
+{
+    top: 3440px;
+    left: 685px;
+    width: 584px;
+    height: 534px;
+    background: transparent url('img/Image 1.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+}
+#pc
+{
+    top: 3587px;
+    left: 1261px;
+    width: 271px;
+    height: 238px;
+    background: transparent url('img/Image 3.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+}
+#phone
+{
+    top: 3606px;
+    left: 386px;
+    width: 256px;
+    height: 219px;
+    background: transparent url('img/Image 2.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+}
+#logo
+{
+    top: 3954px;
+    left: 826px;
+    width: 430px;
+    height: 241px;
+    background: transparent url('img/Logo CACE Invertido UP.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+}
+#powered
+{
+    top: 3979px;
+    left: 843px;
+    width: 92px;
+    height: 20px;
+    background: transparent url('img/Powered by.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+}
+#grupo
+{
+    top: 4088px;
+    left: 543px;
+    width: 831px;
+    height: 25px;
+    background: transparent url('img/Group 5.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+}
+#boton1
+{
+    top: 30px;
+    left: 1695px;
+    width: 205px;
+    height: 54px;
+    background: transparent url('img/Group 1.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+}
+#login
+{
+    top: 48px;
+    left: 1773px;
+    width: 50px;
+    height: 20px;
+    background: transparent url('img/Login.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+}
+#boton2
+{
+    top: 755px;
+    left: 730px;
+    width: 458px;
+    height: 104px;
+    background: transparent url('img/Rectangle 2.png') 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 52px;
+    opacity: 1;
+    position: absolute;
+}
+#sing
+{
+    top: 787px;
+    left: 780px;
+    width: 360px;
+    height: 40px;
+    background: transparent url('img/Sign-Up on Amazon.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+}
+#flecha1
+{
+    top: 3689px;
+    left: 305px;
+    width: 19px;
+    height: 27px;
+    background: transparent url('img/Flecha.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+}
+#flecha2
+{
+    top: 3702px;
+    left: 1575px;
+    width: 18px;
+    height: 26px;
+    transform: scaleX(-1);
+    background: transparent url('img/Flecha.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+}
+#responsive 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+
 
