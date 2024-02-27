@@ -104,16 +104,14 @@ body
     color: black;
     font-family: "Open Sans", sans-serif;
 }
-@font-face {
+@font-face 
+{
     font-family: Bold;
     src: url("fuentes/OpenSans-Semibold.ttf")  format("truetype");
 }
-body
+
+@font-face 
 {
-    font-family: "Roboto";
-    font-family: "Open Sans, Regular", sans-serif;
-}
-@font-face {
     font-family: Open;
     src: url(fuentes/OpenSans-Regular.ttf) format("truetype");
 }
@@ -126,7 +124,7 @@ body
     height: 41px;
     position: absolute;
     font-size: 30px;
-    font-family: "Open Sans, Regular", sans-serif;
+    font-family: Open;
     color: black;
     text-decoration: underline;
 }
@@ -138,7 +136,7 @@ body
     height: 41px;
     font-size: 30px;
     position: absolute;
-    font-family: "Open Sans, Regular", sans-serif;
+    font-family: Open;
     color: black;
 }
 #abajo1
@@ -149,6 +147,7 @@ body
     height: 55px;
     font-size: 40px;
     position: absolute;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 #abajo2
 {
@@ -157,7 +156,7 @@ body
     width: 149px;
     height: 37px;
     font-size: 27px;
-    font-family: "Open Sans, Regular", sans-serif;
+    font-family: Open;
     position: absolute;
 }
 #lupa
@@ -189,6 +188,7 @@ body
     position: absolute;
     color: white;
     font-size: 20px;
+    font-family: Bold;
 }
 #numero1
 {
