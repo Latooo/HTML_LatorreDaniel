@@ -2,8 +2,8 @@ body
 {
     top: 0px;
     left: 0px;
-    width: 1600px;
-    height: 1200px;
+    width: 1920px;
+    height: 1080px;
     background: transparent linear-gradient(180deg, var(--unnamed-color-ffffff) 0%, #E6E6E6 21%, #808080 100%) 0% 0% no-repeat padding-box;
     background: transparent linear-gradient(180deg, #FFFFFF 0%, #E6E6E6 21%, #808080 100%) 0% 0% no-repeat padding-box;
     opacity: 1;
@@ -105,22 +105,22 @@ body
     font-family: "Open Sans", sans-serif;
 }
 @font-face {
-    font-family: "Open Sans";
+    font-family: Bold;
     src: url("fuentes/OpenSans-Semibold.ttf")  format("truetype");
 }
 body
 {
     font-family: "Roboto";
-    font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans, Regular", sans-serif;
 }
 @font-face {
-    font-family: "Open Sans, Regular";
+    font-family: Open;
     src: url(fuentes/OpenSans-Regular.ttf) format("truetype");
 }
 
 #boton1
 {
-    top: 240px;
+    top: 220px;
     left: 800px;
     width: 230px;
     height: 41px;
@@ -128,12 +128,13 @@ body
     font-size: 30px;
     font-family: "Open Sans, Regular", sans-serif;
     color: black;
+    text-decoration: underline;
 }
 #boton2
 {
-    top: 242px;
+    top: 220px;
     left: 1072px;
-    width: 132px;
+    width: 142px;
     height: 41px;
     font-size: 30px;
     position: absolute;
@@ -142,7 +143,7 @@ body
 }
 #abajo1
 {
-    top: 841px;
+    top: 821px;
     left: 158px;
     width: 716px;
     height: 55px;
@@ -151,9 +152,9 @@ body
 }
 #abajo2
 {
-    top: 924px;
+    top: 890px;
     left: 157px;
-    width: 139px;
+    width: 149px;
     height: 37px;
     font-size: 27px;
     font-family: "Open Sans, Regular", sans-serif;
@@ -176,6 +177,66 @@ body
     width: 33px;
     height: 32px;
     background: transparent url('img/Icon feather-shopping-cart.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+}
+#cantidad
+{
+    top: 349px;
+    left: 1403px;
+    width: 84px;
+    height: 27px;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+}
+#numero1
+{
+    top: 607px;
+    left: 1435px;
+    width: 23px;
+    height: 187px;
+    font-size: 20px;
+    position: absolute;
+    color: white;
+}
+#numero2
+{
+    top: 507px;
+    left: 1435px;
+    width: 23px;
+    height: 187px;
+    font-size: 20px;
+    position: absolute;
+    color: gray;
+}
+#numero3
+{
+    top: 707px;
+    left: 1435px;
+    width: 23px;
+    height: 187px;
+    font-size: 20px;
+    position: absolute;
+    color: gray;
+} 
+#arrowup
+{
+    top: 240px;
+    left: 1433px;
+    width: 24px;
+    height: 14px;
+    background: transparent url('img/Icon ionic-ios-arrow-up.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+} 
+#arrowdown
+{
+    top: 946px;
+    left: 1433px;
+    width: 24px;
+    height: 14px;
+    background: transparent url('img/Icon ionic-ios-arrow-down.png') 0% 0% no-repeat padding-box;
     opacity: 1;
     position: absolute;
 }
