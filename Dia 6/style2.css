@@ -1,9 +1,21 @@
+@font-face 
+{
+    font-family: Bold;
+    src: url(fuentes/OpenSans-Semibold.ttf)  format("truetype");
+}
+
+@font-face 
+{
+    font-family: Open;
+    src: url(fuentes/OpenSans-Regular.ttf) format("truetype");
+}
+
 body
 {
     top: 0px;
     left: 0px;
-    width: 1920px;
-    height: 1080px;
+    width: 100vh;
+    height: 100vh;
     background: transparent linear-gradient(180deg, var(--unnamed-color-ffffff) 0%, #E6E6E6 21%, #808080 100%) 0% 0% no-repeat padding-box;
     background: transparent linear-gradient(180deg, #FFFFFF 0%, #E6E6E6 21%, #808080 100%) 0% 0% no-repeat padding-box;
     opacity: 1;
@@ -104,17 +116,7 @@ body
     color: black;
     font-family: "Open Sans", sans-serif;
 }
-@font-face 
-{
-    font-family: Bold;
-    src: url("fuentes/OpenSans-Semibold.ttf")  format("truetype");
-}
 
-@font-face 
-{
-    font-family: Open;
-    src: url(fuentes/OpenSans-Regular.ttf) format("truetype");
-}
 
 #boton1
 {
@@ -143,11 +145,11 @@ body
 {
     top: 600px;
     left: 401px;
-    width: 700px;
+    width: 750px;
     height: 55px;
     font-size: 40px;
     position: absolute;
-    font-family: Open;
+    font-family: Bold;
 }
 #abajo2
 {
@@ -156,7 +158,7 @@ body
     width: 329px;
     height: 37px;    
     font-size: 27px;
-    font-family: Open;
+    font-family: Bold;
     position: absolute;
 }
 #abajo3
@@ -166,7 +168,7 @@ body
     width: 200px;
     height: 37px;
     font-size: 27px;
-    font-family: Open;
+    font-family: Bold;
     position: absolute;
 }
 #lupa
@@ -198,7 +200,7 @@ body
     position: absolute;
     color: white;
     font-size: 20px;
-    font-family: Bold;
+    font-family: Open;
 }
 #numero1
 {
