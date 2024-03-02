@@ -8,285 +8,280 @@ body
     font-family: Open;
 }
 
-.seccion1
-{
-    width: auto;
-    height: 500px;
-}
 #foods
 {
-    font-size: 30px;
+    font-size: 2em;
     color: #d45800;
     font-family: Open;
-    top: 10px;
-    left: 50px;
+    top: 0.5em;
+    left: 1em;
     position: absolute;
     
 }
 #botones1
 {
-    font-size: 20px;
+    font-size: 1em;
     color: white;
     font-family: Open;
-    top: 40px;
-    left: 1560px;
+    top: 2.5em;
+    left: 25.5em;
     position: absolute;
 }
 #botones2
 {
-    font-size: 20px;
+    font-size: 1em;
     color: white;
     font-family: Open;
-    top: 40px;
-    left: 1630px;
+    top: 2.5em;
+    left: 29.5em;
     position: absolute;
 }
 #botones3
 {
-    font-size: 20px;
+    font-size: 1em;
     color: white;
     font-family: Open;
-    top: 40px;
-    left: 1700px;
+    top: 2.5em;
+    left: 33.5em;
     position: absolute;
 }
 #botones4
 {
-    font-size: 20px;
+    font-size: 1em;
     color: white;
     font-family: Open;
-    top: 40px;
-    left: 1770px;
+    top: 2.5em;
+    left: 37em;
     position: absolute;
 }
 #botones5
 {
-    font-size: 20px;
+    font-size: 1em;
     color: white;
     font-family: Open;
-    top: 40px;
-    left: 1850px;
+    top: 2.5em;
+    left: 41em;
     position: absolute;
 }
 #titulo
 {
-    font-size: 80px;
+    font-size: 3em;
     color: #d45800;
     font-family: Open;
-    top: 150px;
-    left: 600px;
+    top: 2em;
+    left: 3em;
     position: absolute;
 }
 #abajo
 {
-    font-size: 40px;
+    font-size: 1em;
     color: white;
     font-family: Open;
-    top: 290px;
-    left: 602px;
+    top: 11em;
+    left: 9.5em;
     position: absolute;
 }
 #abajo1
 {
-    font-size: 40px;
+    font-size: 1em;
     color: white;
     font-family: Open;
-    top: 330px;
-    left: 602px;
+    top: 12em;
+    left: 9.5em;
     position: absolute;
 }
 #home
 {
-    top: 150px;
-    left: 1100px;
-    height: 400px;
-    width: 400px;
+    top: 9em;
+    left: 29em;
+    height: 10em;
+    width: 10em;
     position: absolute;
 }
 .naranja
 {
-    top: 430px;
-    left: 600px;
-    width: 150px;
-    height: 50px;
-    border: 1px solid #d45800;
+    top: 14.5em;
+    left: 9em;
+    width: 7em;
+    height: 2em;
     text-align: center;
+    line-height: 0em;
     background-color: #d45800;
     position: absolute;
 }
 #about
 {
-    top: 700px;
-    left: 700px;
-    width: 400px;
-    height: 400px;
+    top: 24em;
+    left: 9em;
+    width: 10em;
+    height: 10em;
     position: absolute;
 }
 #about1
 {
-    font-size: 20px;
+    font-size: 1em;
     color: #d45800;
-    top: 700px;
-    left: 1150px;
+    top: 22em;
+    left: 24em;
     position: absolute;
 }
 #about2
 {
-    font-size: 35px;
+    font-size: 2em;
     color: white;
-    top: 720px;
-    left: 1150px;
+    top: 11em;
+    left: 12em;
     position: absolute;
 }
 #about3
 {
-    font-size: 35px;
+    font-size: 2em;
     color: white;
-    top: 755px;
-    left: 1150px;
+    top: 12em;
+    left: 12em;
     position: absolute;
 }
 #about4
 {
-    font-size: 20px;
+    font-size: 1em;
     color: white;
-    top: 820px;
-    left: 1150px;
-    width: 300px;
+    top: 27.5em;
+    left: 24em;
+    width: 14.5em;
     position: absolute;
 }
 .naranja1
 {
-    top: 920px;
-    left: 1150px;
-    width: 150px;
-    height: 50px;
-    border: 1px solid #d45800;
+    top: 32.5em;
+    left: 24em;
+    width:7em;
+    height: 2em;
+    line-height: 0em;
     text-align: center;
     background-color: #d45800;
     position: absolute;
 }
 #letra
 {
-    font-size: 40px;
+    font-size: 1em;
     color: #d45800;
-    top: 1250px;
-    left: 870px;
+    top: 40em;
+    left: 22em;
     position: absolute;
 }
 #letra1
 {
-    font-size: 60px;
+    font-size: 2em;
     color: white;
-    top: 1270px;
-    left: 650px;
+    top: 20em;
+    left: 7.2em;
     position: absolute;
   
 }
 .cuadro1
 {
-    width: 400px;
-    height: 400px;
-    top: 1500px;
-    left: 200px;
+    width: 10em;
+    height: 10em;
+    top: 47em;
+    left: 5em;
     background-color: white;
-    border: 10px solid black;
+    border: 0.2em solid black;
     position: absolute;
 }
 .cuadro2
 {
-    width: 400px;
-    height: 400px;
-    top: 1500px;
-    left: 750px;
-    border: 10px solid black;
+    width: 10em;
+    height: 10em;
+    top: 47em;
+    left: 19em;
+    border: 0.2em solid black;
     background-color: white;
     position: absolute;
 }
 .cuadro3
 {
-    width: 400px;
-    height: 400px;
-    top: 1500px;
-    left: 1300px;
-    border: 10px solid black;
+    width: 10em;
+    height: 10em;
+    top: 47em;
+    left: 33em;
+    border: 0.2em solid black;
     background-color: white;
     position: absolute;
 }
 #foto1
 {
-    width: 200px;
-    height: 200px;
-    top: 30px;
-    left: 100px;
+    width: 5em;
+    height: 5em;
+    top: 0.5em;
+    left: 2.5em;
     position: absolute;
 }
 #foto2
 {
-    width: 200px;
-    height: 200px;
-    top: 30px;
-    left: 100px;
+    width: 5em;
+    height: 5em;
+    top: 0.5em;
+    left: 2.5em;
     position: absolute;
 }
 #foto3
 {
-    width: 200px;
-    height: 200px;
-    top: 30px;
-    left: 100px;
+    width: 4.5em;
+    height: 4.5em;
+    top: 0.5em;
+    left: 2.7em;
     position: absolute;
 }
 #txt1
 {
-    font-size: 30px;
-    top: 210px;
-    left: 100px;
+    font-size: 1em;
+    top: 4.5em;
+    left: 2em;
     position: absolute;
 }
 #txt2
 {
-    font-size: 20px;
-    top: 260px;
-    left: 160px;
+    font-size: 1em;
+    top: 5.7em;
+    left: 3em;
     position: absolute;
 }
 #txt3
 { 
-    font-size: 30px;
+    font-size: 0.9em;
     color: #d45800;
-    top: 300px;
-    left: 160px;
+    top: 8em;
+    left: 4.5em;
     position: absolute;
 }
 #txt4
 {
-    font-size: 30px;
-    top: 210px;
-    left: 85px;
+    font-size: 1em;
+    top: 4.5em;
+    left: 1em;
     position: absolute;
 }
 #txt5
 {
-    font-size: 30px;
-    top: 210px;
-    left: 95px;
+    font-size: 1em;
+    top: 4.5em;
+    left: 1.5em;
     position: absolute;
 }
 #letra2
 {
-    font-size: 40px;
+    font-size: 1em;
     color: #d45800;
-    top: 1970px;
-    left: 900px;
+    top: 60em;
+    left: 22.3em;
     position: absolute;
 }
 #letra3
 {
-    font-size: 60px;
+    font-size: 2em;
     color: white;
-    top: 1990px;
-    left: 620px;
+    top: 30.3em;
+    left: 6.5em;
     position: absolute;
 }
 #img1
