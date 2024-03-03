@@ -14,7 +14,7 @@ body
     color: #d45800;
     font-family: Open;
     top: 0.5em;
-    left: 1em;
+    left: 2em;
     position: absolute;
     
 }
@@ -24,7 +24,7 @@ body
     color: white;
     font-family: Open;
     top: 2.5em;
-    left: 25.5em;
+    left: 34.5em;
     position: absolute;
 }
 #botones2
@@ -33,7 +33,7 @@ body
     color: white;
     font-family: Open;
     top: 2.5em;
-    left: 29.5em;
+    left: 39.5em;
     position: absolute;
 }
 #botones3
@@ -42,7 +42,7 @@ body
     color: white;
     font-family: Open;
     top: 2.5em;
-    left: 33.5em;
+    left: 44.5em;
     position: absolute;
 }
 #botones4
@@ -51,7 +51,7 @@ body
     color: white;
     font-family: Open;
     top: 2.5em;
-    left: 37em;
+    left: 49em;
     position: absolute;
 }
 #botones5
@@ -60,15 +60,15 @@ body
     color: white;
     font-family: Open;
     top: 2.5em;
-    left: 41em;
+    left: 54em;
     position: absolute;
 }
 #titulo
 {
-    font-size: 3em;
+    font-size: 4em;
     color: #d45800;
     font-family: Open;
-    top: 2em;
+    top: 1.5em;
     left: 3em;
     position: absolute;
 }
@@ -77,8 +77,8 @@ body
     font-size: 1em;
     color: white;
     font-family: Open;
-    top: 11em;
-    left: 9.5em;
+    top: 13em;
+    left: 12.5em;
     position: absolute;
 }
 #abajo1
@@ -86,22 +86,22 @@ body
     font-size: 1em;
     color: white;
     font-family: Open;
-    top: 12em;
-    left: 9.5em;
+    top: 14em;
+    left: 12.5em;
     position: absolute;
 }
 #home
 {
     top: 9em;
-    left: 29em;
-    height: 10em;
-    width: 10em;
+    left: 38em;
+    height: 12em;
+    width: 12em;
     position: absolute;
 }
 .naranja
 {
-    top: 14.5em;
-    left: 9em;
+    top: 16.5em;
+    left: 12.5em;
     width: 7em;
     height: 2em;
     text-align: center;
@@ -111,49 +111,49 @@ body
 }
 #about
 {
-    top: 24em;
-    left: 9em;
-    width: 10em;
-    height: 10em;
+    top: 25em;
+    left: 13em;
+    width: 12em;
+    height: 12em;
     position: absolute;
 }
 #about1
 {
     font-size: 1em;
     color: #d45800;
-    top: 22em;
-    left: 24em;
+    top: 24em;
+    left: 35em;
     position: absolute;
 }
 #about2
 {
     font-size: 2em;
     color: white;
-    top: 11em;
-    left: 12em;
+    top: 12em;
+    left: 17.5em;
     position: absolute;
 }
 #about3
 {
     font-size: 2em;
     color: white;
-    top: 12em;
-    left: 12em;
+    top: 13em;
+    left: 17.5em;
     position: absolute;
 }
 #about4
 {
     font-size: 1em;
     color: white;
-    top: 27.5em;
-    left: 24em;
+    top: 29.5em;
+    left: 35em;
     width: 14.5em;
     position: absolute;
 }
 .naranja1
 {
-    top: 32.5em;
-    left: 24em;
+    top: 34.5em;
+    left: 35em;
     width:7em;
     height: 2em;
     line-height: 0em;
@@ -166,7 +166,7 @@ body
     font-size: 1em;
     color: #d45800;
     top: 40em;
-    left: 22em;
+    left: 28em;
     position: absolute;
 }
 #letra1
@@ -174,7 +174,7 @@ body
     font-size: 2em;
     color: white;
     top: 20em;
-    left: 7.2em;
+    left: 10.2em;
     position: absolute;
   
 }
@@ -183,7 +183,7 @@ body
     width: 10em;
     height: 10em;
     top: 47em;
-    left: 5em;
+    left: 10em;
     background-color: white;
     border: 0.2em solid black;
     position: absolute;
@@ -193,7 +193,7 @@ body
     width: 10em;
     height: 10em;
     top: 47em;
-    left: 19em;
+    left: 25em;
     border: 0.2em solid black;
     background-color: white;
     position: absolute;
@@ -203,7 +203,7 @@ body
     width: 10em;
     height: 10em;
     top: 47em;
-    left: 33em;
+    left: 40em;
     border: 0.2em solid black;
     background-color: white;
     position: absolute;
@@ -273,7 +273,7 @@ body
     font-size: 1em;
     color: #d45800;
     top: 60em;
-    left: 22.3em;
+    left: 28em;
     position: absolute;
 }
 #letra3
@@ -281,84 +281,84 @@ body
     font-size: 2em;
     color: white;
     top: 30.3em;
-    left: 6.5em;
+    left: 9em;
     position: absolute;
 }
 #img1
 {
     position: absolute;
-    top: 2200px;
-    left: 300px;
-    width: 300px;
-    height: 300px;
+    top: 68em;
+    left: 10.5em;
+    width: 10em;
+    height: 10em;
 }
 #img2
 {
     position: absolute;
-    top: 2200px;
-    left: 850px;
-    width: 300px;
-    height: 300px;
+    top: 68em;
+    left: 25.5em;
+    width: 10em;
+    height: 10em;
 }
 #img3
 {
     position: absolute;
-    top: 2200px;
-    left: 1400px;
-    width: 250px;
-    height: 250px;
+    top: 68.5em;
+    left: 40em;
+    width: 10em;
+    height: 8em;
 }
 #order
 {
-    font-size: 40px;
+    font-size: 1.5em;
     color: #d45800;
-    top: 2440px;
-    left: 390px;
+    top: 50.5em;
+    left: 9em;
     position: absolute;
 }
 #ship
 {
-    font-size: 40px;
+    font-size: 1.5em;
     color: #d45800;
-    top: 2440px;
-    left: 920px;
+    top: 50.5em;
+    left: 18.5em;
     position: absolute;
 }
 #delivered
 {
-    font-size: 40px;
+    font-size: 1.5em;
     color: #d45800;
-    top: 2440px;
-    left: 1440px;
+    top: 50.5em;
+    left: 28em;
     position: absolute;
 }
 #ordertext
 {
-    font-size: 35px;
+    font-size: 1em;
     color: white;
-    top: 2490px;
-    left: 220px;
-    width: 440px;
+    top: 78em;
+    left: 10em;
+    width: 11em;
     position: absolute;
     text-align: center;
 }
 #shiptext
 {
-    font-size: 35px;
+    font-size: 1em;
     color: white;
-    top: 2490px;
-    left: 780px;
-    width: 440px;
+    top: 78em;
+    left: 25em;
+    width: 11em;
     position: absolute;
     text-align: center;
 }
 #deliveredtext
 {
-    font-size: 35px;
+    font-size: 1em;
     color: white;
-    top: 2490px;
-    left: 1300px;
-    width: 440px;
+    top: 78em;
+    left: 39.5em;
+    width: 11em;
     position: absolute;
     text-align: center;
 }
