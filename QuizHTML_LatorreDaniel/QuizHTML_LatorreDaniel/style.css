@@ -364,36 +364,35 @@ body
 }
 .seccion5
 {
-    width: 1300px;
-    height: 300px;
-    top: 2900px;
-    left: 325px;
-    border: 10px solid black;
+    width: 45em;
+    height: 15em;
+    top: 89em;
+    left: 7.5em;
+    border: 0.5em solid black;
     background-color: white;
     position: absolute;
 }
 #make
 {
-    font-size: 70px;
-    top: -50px;
-    left: 350px;
+    font-size: 3em;
+    top: -0.5em;
+    left: 3em;
     position: absolute;
     
 }
 #everyday
 {
-    font-size: 70px;
-    top: 20px;
-    left: 530px;
+    font-size: 3em;
+    top: 0.5em;
+    left: 5.5em;
     position: absolute;
 }
 .orange
 {
-    top: 220px;
-    left: 590px;
-    width: 150px;
-    height: 50px;
-    border: 1px solid #d45800;
+    top: 10em;
+    left: 18.5em;
+    width: 7em;
+    height: 3em;
     text-align: center;
     background-color: #d45800;
     position: absolute;
@@ -402,41 +401,81 @@ body
 {
     position: absolute;
     color: white;
-    font-size: 30px;
-    top: 3400px;
-    left: 350px;
+    font-size: 1em;
+    top: 110em;
+    left: 8em;
     
 }
 .columna2
 {
     position: absolute;
     color: white;
-    font-size: 30px;
-    top: 3400px;
-    left: 720px;
+    font-size: 1em;
+    top: 110em;
+    left: 21em;
 }
 .columna3
 {
     position: absolute;
     color: white;
-    font-size: 30px;
-    top: 3400px;
-    left: 1150px;
+    font-size: 1em;
+    top: 110em;
+    left: 35em;
 }
 .columna4
 {
     position: absolute;
     color: white;
-    font-size: 30px;
-    top: 3400px;
-    left: 1500px;
+    font-size: 1em;
+    top: 110em;
+    left: 48em;
 }
 #uno
 {
-    text-decoration: 3px underline #d45800;
+    text-decoration: 0.2em underline #d45800;
+    font-size: 1.2em;
 }
 #dos
 {
     text-decoration: none;
     color: white;
+}
+#circulo
+{
+    background-color: #d45800;
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 50%;
+    position: absolute;
+}
+#circulo2
+{
+    background-color: #d45800;
+    width: 1.5em;
+    height: 1.5em;
+    left: 2em;
+    border-radius: 50%;
+    position: absolute;
+}
+#circulo3
+{
+    background-color: #d45800;
+    width: 1.5em;
+    height: 1.5em;
+    left: 4em;
+    border-radius: 50%;
+    position: absolute;
+}
+#circulo4
+{
+    background-color: #d45800;
+    width: 1.5em;
+    height: 1.5em;
+    left: 6em;
+    border-radius: 50%;
+    position: absolute;
+}
+#tres
+{
+    font-size: 0.8em;
 }
