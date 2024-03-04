@@ -1,0 +1,25 @@
+.flex
+{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    background-color:coral;
+    border: 0.4em outset red;
+    
+}
+.flex > div
+{
+    background-color: #ee8f8f;
+    border-radius: 15%;
+    width: 5em;
+    margin: 1em;
+    text-align: center;
+    line-height: 1em;
+    align-items: center;
+}
+.flex > div > a 
+{
+    text-decoration: none;
+    color: black;
+}
+
