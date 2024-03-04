@@ -184,8 +184,8 @@ body
     height: 10em;
     top: 47em;
     left: 10em;
-    background-color: white;
-    border: 0.2em solid black;
+    background-color: #ffe8c2;
+    border: 0.2em double black;
     position: absolute;
 }
 .cuadro2
@@ -194,8 +194,8 @@ body
     height: 10em;
     top: 47em;
     left: 25em;
-    border: 0.2em solid black;
-    background-color: white;
+    border: 0.2em double black;
+    background-color: #ffe8c2;
     position: absolute;
 }
 .cuadro3
@@ -204,8 +204,8 @@ body
     height: 10em;
     top: 47em;
     left: 40em;
-    border: 0.2em solid black;
-    background-color: white;
+    border: 0.2em double black;
+    background-color: #ffe8c2;
     position: absolute;
 }
 #foto1
@@ -368,8 +368,8 @@ body
     height: 15em;
     top: 89em;
     left: 7.5em;
-    border: 0.5em solid black;
-    background-color: white;
+    border: 0.5em double black;
+    background-color: #ffe8c2;
     position: absolute;
 }
 #make
