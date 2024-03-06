@@ -20,12 +20,34 @@ body
 .sol
 {
     position: absolute;
-    left: 90em;
-    top: 5em;
+    left: 120em;
+    top: 2em;
 
 }
 #sol
 {
     width: 20em;
+    height: 20em;
+}
+.flor
+{
+    position: absolute;
+    left: 60em;
+    top: 50em;
+}
+#flor
+{
+    width: 10em;
+    height: 10em;
+}
+.nube
+{
+    position: absolute;
+    left: 40em;
+    top: 2em;
+}
+#nube
+{
+    width: 50em;
     height: 20em;
 }
