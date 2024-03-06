@@ -1,0 +1,31 @@
+body
+{
+    background-repeat: no-repeat;
+    background-image: url("https://img.freepik.com/vector-gratis/escena-paisaje-pradera-blanco_1308-59927.jpg?w=1480&t=st=1709731813~exp=1709732413~hmac=5c150d22bba6c27233394b3760dd0300bada10f50887b131d6c625afdae7c3f6");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.casa
+{
+    position: absolute;
+    left: 90rem;
+    top: 20em;
+}
+#casa
+{
+    width: 50em;
+    height: 50em;
+}
+.sol
+{
+    position: absolute;
+    left: 90em;
+    top: 5em;
+
+}
+#sol
+{
+    width: 20em;
+    height: 20em;
+}
