@@ -22,7 +22,7 @@ body {
     left: 70vw;
     top: 5vh;
     opacity: 50%;
-    animation: sol 2s alternate 14s forwards; /* Retraso de 14s para que comience después de las animaciones anteriores */
+    animation: sol 2s alternate 15s forwards; /* Retraso de 10s para que comience después de las animaciones anteriores */
 }
 
 #sol {
@@ -35,7 +35,7 @@ body {
     left: 40vw;
     top: 60vh;
     opacity: 0; /* Inicialmente oculto */
-    animation: aparecerFlor 2s 14s forwards, crecimientoFlor 2s 16s forwards;
+    animation: aparecerFlor 2s 20s forwards;
 }
 
 #flor {
@@ -47,12 +47,25 @@ body {
     position: absolute;
     left: 32vw;
     top: 10vh;
-    animation: nube 4s;
+    animation: nube 10s 6s, lluvia 2s 16s forwards;
 }
 
 #nube {
     width: 20vw;
     height: auto;
+}
+
+.lluvia {
+    position: absolute;
+    left: 32vw;
+    top: 15vw;
+    opacity: 0%;
+    animation: moverLluvia 5s 16s forwards; 
+}
+
+#lluvia {
+    width: 20vw;
+    height: 25vw;
 }
 
 .contador {
@@ -70,7 +83,7 @@ body {
 
 .contador::after {
     content: "1";
-    animation: contadorAnim 8s forwards, siguienteAnimacion 1s 8s;
+    animation: contadorAnim 8s forwards;
     position: absolute;
     left: 0;
     top: 0;
@@ -103,13 +116,18 @@ body {
     to {opacity: 1;}
 }
 
+@keyframes moverLluvia {
+    0% { left: 32vw; }
+    from {opacity: 100%;}
+    to {opacity: 0%;}
+}
+
+
+
 @keyframes crecimientoFlor {
     from {height: 0;}
     to {height: 7vw;}
 }
 
-@keyframes siguienteAnimacion {
-    0% { content: ""; opacity: 0; }
-    100% { content: ""; opacity: 0; }
-}
+
 
