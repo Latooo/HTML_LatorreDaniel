@@ -22,7 +22,7 @@ body {
     left: 70vw;
     top: 5vh;
     opacity: 50%;
-    animation: sol 2s alternate 15s forwards; /* Retraso de 10s para que comience después de las animaciones anteriores */
+    animation: sol 2s alternate 15s forwards; 
 }
 
 #sol {
@@ -34,7 +34,7 @@ body {
     position: absolute;
     left: 40vw;
     top: 60vh;
-    opacity: 0; /* Inicialmente oculto */
+    opacity: 0; 
     animation: aparecerFlor 2s 20s forwards;
 }
 
