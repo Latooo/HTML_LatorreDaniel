@@ -8,37 +8,39 @@ body {
 
 .casa {
     position: absolute;
-    left: 60vw; 
-    top: 20vh; 
+    left: 60vw;
+    top: 20vh;
 }
 
 #casa {
-    width: 40vw; 
-    height: auto; 
+    width: 40vw;
+    height: auto;
 }
 
 .sol {
     position: absolute;
-    left: 70vw; 
+    left: 70vw;
     top: 5vh;
-    animation: sol 2s alternate; 
+    opacity: 50%;
+    animation: sol 2s alternate 14s forwards; /* Retraso de 14s para que comience después de las animaciones anteriores */
 }
 
 #sol {
-    width: 15vw; 
-    height: auto; 
+    width: 15vw;
+    height: auto;
 }
 
 .flor {
     position: absolute;
-    left: 40vw; 
-    top: 60vh; 
-    animation: flor 3s;
+    left: 40vw;
+    top: 60vh;
+    opacity: 0; /* Inicialmente oculto */
+    animation: aparecerFlor 2s 14s forwards, crecimientoFlor 2s 16s forwards;
 }
 
 #flor {
-    width: 5vw; 
-    height: 7vw; 
+    width: 5vw;
+    height: 7vw;
 }
 
 .nube {
@@ -50,25 +52,25 @@ body {
 
 #nube {
     width: 20vw;
-    height: auto; 
+    height: auto;
 }
+
 .contador {
     position: fixed;
-    z-index: 9999; 
-    left: 50%; 
-    top: 40%; 
+    z-index: 9999;
+    left: 50%;
+    top: 40%;
     transform: translate(-50%, -50%);
     color: black;
     height: 500px;
     font-size: 100px;
     text-align: center;
     background: none;
-    
 }
 
 .contador::after {
     content: "1";
-    animation: contadorAnim 8s forwards;
+    animation: contadorAnim 8s forwards, siguienteAnimacion 1s 8s;
     position: absolute;
     left: 0;
     top: 0;
@@ -79,26 +81,35 @@ body {
     align-items: center;
 }
 
-@keyframes contadorAnim 
-{
+@keyframes contadorAnim {
     0%, 12.5% { content: "1"; opacity: 1; }
     25%, 37.5% { content: "2"; opacity: 1; }
     50%, 62.5% { content: "3"; opacity: 1; }
     75%, 87.5% { content: "Ready!"; opacity: 1; }
     100% { opacity: 0; }
 }
-@keyframes sol 
-{
-    from {opacity: 0%;}
-    to {opacity: 50%;}
+
+@keyframes sol {
+    to {opacity: 100%;}
 }
-@keyframes nube
-{
+
+@keyframes nube {
     from {left: 0px;}
+    to {left: 32vw;}
 }
-@keyframes flor
-{
-    to {height: 100px;}
-    from {height:0px;}
+
+@keyframes aparecerFlor {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes crecimientoFlor {
+    from {height: 0;}
+    to {height: 7vw;}
+}
+
+@keyframes siguienteAnimacion {
+    0% { content: ""; opacity: 0; }
+    100% { content: ""; opacity: 0; }
 }
 
