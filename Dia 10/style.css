@@ -1,53 +1,104 @@
-body
-{
+body {
     background-repeat: no-repeat;
     background-image: url("https://img.freepik.com/vector-gratis/escena-paisaje-pradera-blanco_1308-59927.jpg?w=1480&t=st=1709731813~exp=1709732413~hmac=5c150d22bba6c27233394b3760dd0300bada10f50887b131d6c625afdae7c3f6");
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
 }
-.casa
-{
-    position: absolute;
-    left: 90rem;
-    top: 20em;
-}
-#casa
-{
-    width: 50em;
-    height: 50em;
-}
-.sol
-{
-    position: absolute;
-    left: 120em;
-    top: 2em;
 
-}
-#sol
-{
-    width: 20em;
-    height: 20em;
-}
-.flor
-{
+.casa {
     position: absolute;
-    left: 60em;
-    top: 50em;
+    left: 60vw; 
+    top: 20vh; 
 }
-#flor
-{
-    width: 10em;
-    height: 10em;
+
+#casa {
+    width: 40vw; 
+    height: auto; 
 }
-.nube
-{
+
+.sol {
     position: absolute;
-    left: 40em;
-    top: 2em;
+    left: 70vw; 
+    top: 5vh;
+    animation: sol 2s alternate; 
 }
-#nube
+
+#sol {
+    width: 15vw; 
+    height: auto; 
+}
+
+.flor {
+    position: absolute;
+    left: 40vw; 
+    top: 60vh; 
+    animation: flor 3s;
+}
+
+#flor {
+    width: 5vw; 
+    height: 7vw; 
+}
+
+.nube {
+    position: absolute;
+    left: 32vw;
+    top: 10vh;
+    animation: nube 4s;
+}
+
+#nube {
+    width: 20vw;
+    height: auto; 
+}
+.contador {
+    position: fixed;
+    z-index: 9999; 
+    left: 50%; 
+    top: 40%; 
+    transform: translate(-50%, -50%);
+    color: black;
+    height: 500px;
+    font-size: 100px;
+    text-align: center;
+    background: none;
+    
+}
+
+.contador::after {
+    content: "1";
+    animation: contadorAnim 8s forwards;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes contadorAnim 
 {
-    width: 50em;
-    height: 20em;
+    0%, 12.5% { content: "1"; opacity: 1; }
+    25%, 37.5% { content: "2"; opacity: 1; }
+    50%, 62.5% { content: "3"; opacity: 1; }
+    75%, 87.5% { content: "Ready!"; opacity: 1; }
+    100% { opacity: 0; }
 }
+@keyframes sol 
+{
+    from {opacity: 0%;}
+    to {opacity: 50%;}
+}
+@keyframes nube
+{
+    from {left: 0px;}
+}
+@keyframes flor
+{
+    to {height: 100px;}
+    from {height:0px;}
+}
+
